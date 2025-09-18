@@ -20,4 +20,4 @@ modbus_controller:
     modbus_id: mod_bus
     #command_throttle: 0ms
     setup_priority: -10
-    update_interval: 10s
+    update_interval: 5s
