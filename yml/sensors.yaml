@@ -15,7 +15,7 @@ sensor:
     address: 0x01
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "Ampere"
+    unit_of_measurement: "A"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -36,7 +36,7 @@ sensor:
     register_type: "holding"
     value_type: U_WORD
     device_class: CURRENT
-    #unit_of_measurement: "Ampere"
+    #unit_of_measurement: "A"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -46,7 +46,7 @@ sensor:
     address: 0x04
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "Watt"
+    unit_of_measurement: "W"
     accuracy_decimals: 2
     filters:
      - multiply: 0.1
@@ -56,7 +56,7 @@ sensor:
     address: 0x05
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "Volt"
+    unit_of_measurement: "V"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -66,7 +66,7 @@ sensor:
     address: 0x06
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "mAH"
+    unit_of_measurement: "Ah"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -76,7 +76,7 @@ sensor:
     address: 0x07
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "mAH"
+    unit_of_measurement: "Ah"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -86,7 +86,7 @@ sensor:
     address: 0x08
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "mWH"
+    unit_of_measurement: "Wh"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
@@ -96,7 +96,7 @@ sensor:
     address: 0x09
     register_type: "holding"
     value_type: U_WORD
-    unit_of_measurement: "mWH"
+    unit_of_measurement: "Wh"
     accuracy_decimals: 2
     filters:
      - multiply: 0.01
